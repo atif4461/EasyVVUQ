@@ -1,0 +1,5 @@
+bash install_*.sh
+
+# Needed to downgrade sqlalchemy to deal with sql error
+
+pip install --force-reinstall 'sqlalchemy<2.0.0'
